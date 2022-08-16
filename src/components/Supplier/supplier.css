@@ -1,0 +1,18 @@
+.supplier {
+    margin-top: 60px;
+}
+
+.supplier__section {
+    max-width: var(--container-width-ms);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 41px;
+}
+
+
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+  
+}

@@ -1,0 +1,43 @@
+.join {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.join__section {
+    max-width: var(--container-width-ms);
+    margin: auto;
+    background-color: #1E2B4B;
+    text-align: center;
+}
+
+
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+
+    .join__section {
+        padding: 60px;
+    }
+
+    .join__title {
+        font-size: 24px;
+        color: var(--color-white);
+    }
+
+    .join__text {
+        font-size: 15px;
+        color: var(--color-white);
+        margin-top: 20px;
+    }
+
+    .join__button {
+        color: var(--color-white);
+        font-size: 15px;
+        padding: 10px 25px;
+        border-radius: 5px;
+        border: 1px solid var(--color-white);
+        background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+        margin-top: 20px;
+    }
+
+}

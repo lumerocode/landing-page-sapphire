@@ -1,0 +1,82 @@
+.creator {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.creator__section {
+    max-width: var(--container-width-ms);
+    margin: auto;
+}
+
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+
+    .creator__subtitle {
+        color: #9C76B8;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .creator__title {
+        color: var(--color-white);
+        font-size: 36px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .creator__cards {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .creator__card {
+        width: 287px;
+        height: 259px;
+        display: grid;
+        justify-items: center;
+        place-content: center;
+        background-color: var(--color-secondary);
+    }
+
+    .creator__card h4 {
+        color: var(--color-white);
+        font-size: 15px;
+        margin-top: 17px;
+    }
+
+    .creator__card p {
+        text-align: center;
+        color: var(--color-white);
+        font-size: 10px;
+        margin-top: 14px;
+        padding: 0px 62px;
+        line-height: 16px;
+    }
+
+    .creator__buttons {
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+        margin-top: 63px;
+    }
+
+    .creator__buttons button {
+        color: var(--color-white);
+        font-size: 15px;
+        padding: 10px 25px;
+        border-radius: 5px;
+    }
+
+    .creator__buttons--primary {
+        background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    }
+
+    .creator__buttons-secondary {
+        background-color: transparent;
+        border: 1px solid var(--color-white);
+    }
+
+}

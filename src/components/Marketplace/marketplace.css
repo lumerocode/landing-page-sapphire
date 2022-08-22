@@ -1,6 +1,5 @@
 .mark {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 100px;
 }
 
 .mark__section {
@@ -236,9 +235,25 @@
 
 
 @media screen and (max-width: 600px) {
+
+    .mark {
+        margin-top: 60px;
+    }
   
     .mark__section {
         max-width: var(--container-width-ms);
+    }
+
+    .mark__subtitle {
+        font-size: 16px;
+    }
+
+    .mark__title h3  {
+        font-size: 24px;
+    }
+
+    .mark__title svg {
+        font-size: 20px;
     }
 
     .mark__choose {

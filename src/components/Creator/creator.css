@@ -1,5 +1,5 @@
 .creator {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .creator__section {
@@ -158,6 +158,15 @@
   
     .creator__section {
         max-width: var(--container-width-ms);
+    }
+
+    .creator__subtitle {
+        font-size: 16px;
+    }
+
+    .creator__title {
+        font-size: 24px;
+        margin-top: 4px;
     }
 
     .creator__cards {

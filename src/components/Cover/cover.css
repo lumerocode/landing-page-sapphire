@@ -107,14 +107,14 @@
 
 .cover__port3 p {
     color: #545C71;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
 }
 
 .cover__port3 h5 {
     margin-top: 4px;
     color: var(--color-white);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -136,6 +136,7 @@
         color: var(--color-white);
         font-size: 60px;
         line-height: 84px;
+        margin-right: 0px;
     }
 
     .cover__left img {

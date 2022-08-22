@@ -1,5 +1,5 @@
 .supplier {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .supplier__section {
@@ -19,6 +19,10 @@
 
 /* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px) {
+
+    .supplier {
+        margin-top: 60px;
+    }
   
     .supplier__section {
         max-width: var(--container-width-ms);

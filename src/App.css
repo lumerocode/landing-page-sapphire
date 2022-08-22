@@ -14,8 +14,8 @@
   --color-black: #000;
   --color-secondary: #30384D;
 
-  --container-width-ml: 88%; /*Desktop*/
-  --container-width-md: 86%; /*Tablet*/
+  --container-width-ml: 86%; /*Desktop*/
+  --container-width-md: 88%; /*Tablet*/
   --container-width-ms: 84%; /*Cellphone*/
 
 }

@@ -3,7 +3,7 @@
 }
 
 .nav {
-    max-width: var(--container-width-ms);
+    max-width: var(--container-width-md);
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -90,4 +90,17 @@
         font-size: 12px;
     }
     
+}
+
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+
+    .nav{
+        justify-content: center!important;
+    }
+
+    .nav__links, .nav__search, .nav__sign-in {
+        display: none;
+    }
+  
 }

@@ -139,6 +139,69 @@ export const Card = () => {
             </div>
           </div>
       </div>
+
+      <div className='mark__card1'>
+          <img className='mark__up' src={card1}/>
+          <div className='mark__center'>
+            <div>
+              <h5>Crazy Apes</h5>
+              <p>Created by <a>Rick</a></p>
+            </div>
+            <img src={cardUser}/>
+          </div>
+          <div className='mark__down'>
+            <div>
+              <p>Current Bid</p>
+              <h6>1.90 ETH</h6>
+            </div>
+            <div>
+              <p>Ending In</p>
+              <h6>10h 43m 26s</h6>
+            </div>
+          </div>
+      </div>
+
+      <div className='mark__card1'>
+          <img className='mark__up' src={card2}/>
+          <div className='mark__center'>
+            <div>
+              <h5>Crazy Apes</h5>
+              <p>Created by <a>Rick</a></p>
+            </div>
+            <img src={cardUser}/>
+          </div>
+          <div className='mark__down'>
+            <div>
+              <p>Current Bid</p>
+              <h6>1.90 ETH</h6>
+            </div>
+            <div>
+              <p>Ending In</p>
+              <h6>10h 43m 26s</h6>
+            </div>
+          </div>
+      </div>
+
+      <div className='mark__card1'>
+          <img className='mark__up' src={card3}/>
+          <div className='mark__center'>
+            <div>
+              <h5>Crazy Apes</h5>
+              <p>Created by <a>Rick</a></p>
+            </div>
+            <img src={cardUser}/>
+          </div>
+          <div className='mark__down'>
+            <div>
+              <p>Current Bid</p>
+              <h6>1.90 ETH</h6>
+            </div>
+            <div>
+              <p>Ending In</p>
+              <h6>10h 43m 26s</h6>
+            </div>
+          </div>
+      </div>
     </>
   )
 }

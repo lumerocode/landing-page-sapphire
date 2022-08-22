@@ -4,13 +4,128 @@
 }
 
 .mark__section {
-    max-width: var(--container-width-ms);
+    max-width: var(--container-width-ml);
     margin: auto;
+}
+
+.mark__subtitle {
+    color: #9C76B8;
+    font-size: 18px;
+    text-align: center;
+}
+
+.mark__title {
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+    place-items: baseline;
+}
+
+.mark__title h3 {
+    font-size: 36px;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.mark__title svg {
+    font-size: 22px;
+}
+
+.mark__choose {
+    margin-top: 50px;
+}
+
+.mark__links {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.mark__link {
+    color: var(--color-white);
+    font-size: 18px;
+    background-color: var(--color-secondary);
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+
+.mark__link--active {
+    background-color: #3D2A3D;
+}
+
+.mark__cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 47px;
+}
+
+.mark__card1 {
+    background-color: var(--color-secondary);
+    width: 281px;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.mark__up {
+    padding-top: 31px;
+}
+
+.mark__center {
+    color: var(--color-white);
+    padding: 20px 31px 0px 31px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.mark__center h5 {
+    text-align: start;
+    font-size: 14px;
+}
+
+.mark__center p {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.mark__center p a {
+    font-weight: bold;
+}
+
+.mark__center img {
+    width: 32px;
+    height: 32px;
+}
+
+.mark__down {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 31px 31px 31px;
+    text-align: end;
+}
+
+.mark__down p {
+    color: #545C71;
+    font-size: 10px;
+}
+
+.mark__down h6 {
+    color: var(--color-white);
+    font-size: 12px;
+    margin-top: 2px;
 }
 
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
+
+    .mark__section {
+        max-width: var(--container-width-md);
+        margin: auto;
+    }
 
     .mark__subtitle {
         color: #9C76B8;
@@ -35,7 +150,6 @@
         margin-top: 50px;
     }
 
-
     .mark__links {
         display: flex;
         justify-content: space-between;
@@ -59,7 +173,6 @@
         justify-content: space-between;
         flex-wrap: wrap;
         row-gap: 47px;
-        
     }
 
     .mark__card1 {
@@ -117,6 +230,45 @@
         color: var(--color-white);
         font-size: 10px;
         margin-top: 2px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  
+    .mark__section {
+        max-width: var(--container-width-ms);
+    }
+
+    .mark__choose {
+        margin-top: 30px;
+    }
+
+    .mark__links {
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 10px;
+        justify-content: center;
+    }
+
+    .mark__cards {
+        margin-top: 30px;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .mark__card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .mark__up {
+        width: 82%;
+    }
+
+    .mark__down {
+        padding-bottom: 31px;
     }
 
 }

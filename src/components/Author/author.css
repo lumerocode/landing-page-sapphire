@@ -4,13 +4,95 @@
 }
 
 .author__section {
-    max-width: var(--container-width-ms);
+    max-width: var(--container-width-ml);
     margin: auto;
+}
+
+.author__subtitle {
+    color: #9C76B8;
+    font-size: 20px;
+    text-align: center;
+}
+
+.author__title {
+    color: var(--color-white);
+    font-size: 36px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.author__cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.author__card {
+    width: 388px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-secondary);  
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.author__card-left {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.author__card-left img {
+    width: 100%;
+}
+
+.author__card-left div {
+    width: 100%;
+}
+
+.author__card-left p {
+    color: var(--color-white);
+    font-size: 12px;
+}
+
+.author__card-left h5 {
+    color: var(--color-white);
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.author__card-right svg {
+    color: var(--color-white);
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.author__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.author__button button {
+    color: var(--color-white);
+    font-size: 17px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
 }
 
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
+
+    .author__section {
+        max-width: var(--container-width-ml);
+    }
   
     .author__subtitle {
         color: #9C76B8;
@@ -80,6 +162,33 @@
         border-radius: 5px;
         background-color: transparent;
         border: 1px solid var(--color-white);
+    }
+
+}
+
+
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+
+    .author__section {
+        max-width: var(--container-width-ms);
+    }
+
+    .author__card {
+        width: 100%;
+    }
+
+    .author__cards {
+        margin-top: 30px;
+        row-gap: 20px;
+    }
+
+    .author__button {
+        margin-top: 30px;
+    }
+
+    .author__button button {
+        width: 100%;
     }
 
 }

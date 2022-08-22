@@ -3,13 +3,85 @@
 }
 
 .creator__section {
-    max-width: var(--container-width-ms);
+    max-width: var(--container-width-ml);
     margin: auto;
+}
+
+.creator__subtitle {
+    color: #9C76B8;
+    font-size: 20px;
+    text-align: center;
+}
+
+.creator__title {
+    color: var(--color-white);
+    font-size: 36px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.creator__cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.creator__card {
+    width: 327px;
+    height: 299px;
+    display: grid;
+    justify-items: center;
+    place-content: center;
+    background-color: var(--color-secondary);
+}
+
+.creator__card h4 {
+    color: var(--color-white);
+    font-size: 18px;
+    margin-top: 17px;
+}
+
+.creator__card p {
+    text-align: center;
+    color: var(--color-white);
+    font-size: 14px;
+    margin-top: 14px;
+    padding: 0px 42px;
+    line-height: 22px;
+}
+
+.creator__buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 63px;
+}
+
+.creator__buttons button {
+    color: var(--color-white);
+    font-size: 17px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.creator__buttons--primary {
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+}
+
+.creator__buttons-secondary {
+    background-color: transparent;
+    border: 1px solid var(--color-white);
 }
 
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
+
+    .creator__section {
+        max-width: var(--container-width-md);
+    }
 
     .creator__subtitle {
         color: #9C76B8;
@@ -76,6 +148,32 @@
     .creator__buttons-secondary {
         background-color: transparent;
         border: 1px solid var(--color-white);
+    }
+
+}
+
+
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+  
+    .creator__section {
+        max-width: var(--container-width-ms);
+    }
+
+    .creator__cards {
+        margin-top: 30px;
+        justify-content: center;
+        row-gap: 30px;
+    } 
+    
+    .creator__card {
+        width: 100%;
+    }
+
+    .creator__buttons {
+        margin-top: 30px;
+        flex-direction: column;
+        row-gap: 14px;
     }
 
 }

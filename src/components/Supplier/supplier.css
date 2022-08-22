@@ -3,7 +3,7 @@
 }
 
 .supplier__section {
-    max-width: var(--container-width-ms);
+    max-width: var(--container-width-md);
     margin: auto;
     display: flex;
     justify-content: center;
@@ -15,4 +15,16 @@
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
   
+}
+
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+  
+    .supplier__section {
+        max-width: var(--container-width-ms);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+
 }

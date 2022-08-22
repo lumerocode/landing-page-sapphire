@@ -3,14 +3,12 @@
 }
 
 .cover__section {
-    max-width: var(--container-width-ms);
+    max-width: var(--container-width-md);
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 90px;
 }
-
-
 
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
@@ -126,6 +124,51 @@
         font-size: 10px;
     }
 
-    
+}
+
+
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+
+    .cover__section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        max-width: var(--container-width-ms);
+    }
+
+    .cover__left {
+        text-align: center;
+    }
+  
+    .cover__left h1 {
+        font-size: 40px;
+    }
+
+    .cover__left img {
+        top: 100px;
+        right: 34px;
+        width: 24%;
+    }
+
+    .cover__numbers {
+        margin-top: 30px;
+    }
+
+    /* Le asigno un heigh auto para que se acople al contenido, usar cuando tengas un w y h determinado y te ayudará en mobile */
+    .cover__port {
+        width: 100%;
+        height: auto; 
+    }
+
+    .cover__port .cover__port1 {
+        width: 89%;
+    }
+
+    .cover__port3 {
+        padding-bottom: 17px;
+    }
 
 }
+
+
